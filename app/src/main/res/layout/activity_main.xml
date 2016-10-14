@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MainActivity"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open New Form"
+            android:onClick="openNewForm"
+            android:layout_margin="8dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 1"
+            android:onClick="openSec1"
+            android:layout_margin="24dp"
+            android:background="@color/black_overlay"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 2"
+            android:onClick="openSec2"
+            android:layout_margin="24dp"
+            android:background="@color/black_overlay"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
