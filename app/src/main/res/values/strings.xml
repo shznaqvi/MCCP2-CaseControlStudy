@@ -1,94 +1,5 @@
 <resources>
     <string name="app_name">MCCP2 - Case Control Study</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
     <string name="action_settings">Settings</string>
     <string name="section1">سیکشن1: انٹرویو سے متعلق سوالات</string>
     <string name="lbl105">کلسٹر نمبر</string>
@@ -114,4 +25,368 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name='ccfrmno'>ڈی ایم یو سیریل نمبر</string>
+    <string name='cc101time'>وقت</string>
+    <string name='cc101dt'>تاریخ</string>
+    <string name='cc102'>انٹرویو کرنے والے کا نام اور کوڈ نمبر</string>
+    <string name='cc103'>ٹا وُن/تحصیل کا نام اور کوڈ</string>
+    <string name='cc104'>یونین کونسل کا نام اور کوڈ</string>
+    <string name='cc105'>کلسٹر</string>
+    <string name='cc106'>گھرانہ نمبر لسٹنگ شیٹ سے لکھیں</string>
+    <string name='cc106ext'>خاندان نمبر</string>
+    <string name='cc107'>کیادروازے پرِای -پی-آئی کا مخصوص نشان موجود ہے؟</string>
+    <string name='cc108'>کیا اجازت مل گئی؟</string>
+    <string name='cc109'>انٹرویو کا نتیجہ</string>
+    <string name='cc110'>اگر انٹرویو نامکمل ہو تو وجہ بیان کریں</string>
+    <string name='cc201nm'>جوابدہندہ کا نام</string>
+    <string name='gender'>جنس</string>
+    <string name='cc201type'>رشتہ</string>
+    <string name='age'>عمر</string>
+    <string name='education'>تعلیم</string>
+    <string name='occupation'>پیشہ</string>
+    <string name='cc202nm'>گھرانے کے سر براہ کا نام</string>
+    "<string name='cc203m'>اس گھر میں آپ کے ساتھ اور کتنے افراد رہتے ہیں؟
+مرد</string>"
+    "<string name='cc203f'>اس گھر میں آپ کے ساتھ اور کتنے افراد رہتے ہیں؟
+عورتیں</string>"
+    "<string name='cc203t'>اس گھر میں آپ کے ساتھ اور کتنے افراد رہتے ہیں؟
+ٹوٹل</string>"
+    "<string name='cc204m'>اس گھر میں پانچ سال سے کم عمر کے کتنے بچے ہیں؟
+بچے</string>"
+    "<string name='cc204f'>اس گھر میں پانچ سال سے کم عمر کے کتنے بچے ہیں؟
+بچیاں</string>"
+    "<string name='cc204t'>اس گھر میں پانچ سال سے کم عمر کے کتنے بچے ہیں؟
+ٹوٹل</string>"
+    "<string name='cc205yy'>یہاں کتنے عرصے سے رہائش پزیر ہیں؟
+سال</string>"
+    "<string name='cc205mm'>یہاں کتنے عرصے سے رہائش پزیر ہیں؟
+مہینے</string>"
+    <string name='cc301'>کیا آپ نے کبھی حفاظتی ٹیکوں کے بارے میں سنا ہے ؟</string>
+    "<string name='cc302a'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+ٹی-وی</string>"
+    "<string name='cc302b'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+ریڈیو</string>"
+    "<string name='cc302c'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+اخبارات</string>"
+    "<string name='cc302d'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+پوسٹر/بینر</string>"
+    "<string name='cc302e'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+صحت کی سہولیات مہیا کرنے والےافراد</string>"
+    "<string name='cc302f'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+امام مسجد</string>"
+    "<string name='cc302g'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+مقامی لیڈر</string>"
+    "<string name='cc302h'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+گھر والوں سے</string>"
+    "<string name='cc302i'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+دوست/ہمسائے/رشتہ دار</string>"
+    "<string name='cc302j'>آپ نے کن ذرائع سے حفاظتی ٹیکوں کے بارے میں سنا ہے؟
+NGO ورکر</string>"
+    <string name='cc303'>یا آپ سمجھتے ہیں کہ حفاظتی ٹیکے بیماریوں سے بچاتے ہیں؟</string>
+    "<string name='cc304a'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+پو لیو</string>"
+    "<string name='cc304b'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+ٹی-بی</string>"
+    "<string name='cc304c'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+خناق</string>"
+    "<string name='cc304d'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+کالی کھانسی</string>"
+    "<string name='cc304e'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+خسرہ</string>"
+    "<string name='cc304f'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+یرقان</string>"
+    "<string name='cc304g'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+تشنج</string>"
+    "<string name='cc304h'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+حمل کے دوران تشنج کا ٹیکہ</string>"
+    "<string name='cc304i'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+چیچک</string>"
+    "<string name='cc304j'>کیا آپ کسی ایسی بیماری کے بارے میں جانتے ہیں جس کے لئے حفاظتی ٹیکے لگائے جاتے ہیں؟
+معلوم نہیں</string>"
+    "<string name='cc305a'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+تعلیم کی کمی</string>"
+    "<string name='cc305b'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+پیسوں کی کمی</string>"
+    "<string name='cc305c'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+آگاہی کی کمی</string>"
+    "<string name='cc305d'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+سہولیات کی کمی</string>"
+    "<string name='cc305e'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+ٹیکوں کے منفی اثرات کا خوف</string>"
+    "<string name='cc305f'>آپ کے خیال میں حفاظتی ٹیکے لگوانے میں عام طورپر کیا رکاوٹیں
+ ہوتی ہیں؟
+معلوم نہیں</string>"
+    <string name='cc306'>کیا آپ اپنے بچے کو حفاظتی ٹیکے لگواتے ہیں</string>
+    "<string name='cc307a'>آپ اپنے بچے کو حفاظتی ٹیکے کہاں سے لگواتے ہیں؟
+گورنمنٹ ہسپتال</string>"
+    "<string name='cc307b'>آپ اپنے بچے کو حفاظتی ٹیکے کہاں سے لگواتے ہیں؟
+نجی ہسپتال</string>"
+    "<string name='cc307c'>آپ اپنے بچے کو حفاظتی ٹیکے کہاں سے لگواتے ہیں؟
+ہیلتھ سینٹر</string>"
+    "<string name='cc307d'>آپ اپنے بچے کو حفاظتی ٹیکے کہاں سے لگواتے ہیں؟
+ہیلتھ کیمپ</string>"
+    "<string name='cc307e'>آپ اپنے بچے کو حفاظتی ٹیکے کہاں سے لگواتے ہیں؟
+معلوم نہیں</string>"
+    <string name='cc308'>آپ حفاظتی ٹیکے لگوانے کے لیے کتنی دور جاتے ہیں</string>
+    "<string name='cc309a'>آپ حفاظتی ٹیکے لگوانے کے لیے کیسے جاتے ہیں
+پیدل</string>"
+    "<string name='cc309b'>آپ حفاظتی ٹیکے لگوانے کے لیے کیسے جاتے ہیں
+رکشہ/ٹیکسی/بس</string>"
+    "<string name='cc309c'>آپ حفاظتی ٹیکے لگوانے کے لیے کیسے جاتے ہیں
+اپنی گاڑی سے</string>"
+    <string name='cc310'>کیا آپ حفاظتی ٹیکے لگوانے والے عملے سے مطمئن ہیں</string>
+    "<string name='cc311a'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+فاصلہ زیادہ ہے</string>"
+    "<string name='cc311b'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+اوقات کار درست نہیں ہے</string>"
+    "<string name='cc311c'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+اوقات کار کم ہے</string>"
+    "<string name='cc311d'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+عملے کا رویہ درست نہیں ہے</string>"
+    "<string name='cc311e'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+پیسے مانگتے ہے</string>"
+    "<string name='cc311f'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+ویکیسین دستیاب نہیں ہوتی ہے</string>"
+    "<string name='cc311g'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+عملہ صحیح طریقے سے سمجھاتا نہیں ہے</string>"
+    "<string name='cc311h'>اگرآپ مطمئن نہیں ہیں تو کیا وجوہات ہیں
+اوقات کار کی معلومات نہیں ہے</string>"
+    <string name='cc312'>کیا آپ دوسروں کو بھی حفاظتی ٹیکے لگوانے کا مشورہ دیں گے؟</string>
+    "<string name='cc313a'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+یہ ضروری نہیں</string>"
+    "<string name='cc313b'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+مذہبی عقیدے کے خلاف ہے</string>"
+    "<string name='cc313c'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+خاندان والے منع کرتے ہیں</string>"
+    "<string name='cc313d'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+صحت کے لیے مضر اثرات ہوتے ہیں</string>"
+    "<string name='cc313e'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+حفاظتی ٹیکے حلال نہیں ہیں</string>"
+    "<string name='cc313f'>آپ دوسروں کو حفاظتی ٹیکے لگوانے کا مشورہ کیوں نہیں دیں گے ؟
+حفاظتی ٹیکے تولیدی نظام کو متاثر کرتے ہیں</string>"
+    <string name='cc314'>کیا آپ نے پولیو کے مرض کے بارے میں سنا ہے</string>
+    <string name='cc315'>کیا آپ کو یہ خدشہ ہے کہ آپ کے بچے کو پولیو کا مرض لاحق ہوسکتا ہے</string>
+    "<string name='cc316a'>اس خدشے کے تدارک کے لیے آپ نے کیا اقدامات کئے ہیں
+پولیو کے قطرے پلواتے ہیں</string>"
+    "<string name='cc316b'>اس خدشے کے تدارک کے لیے آپ نے کیا اقدامات کئے ہیں
+پولیو کا ٹیکا لگواتے ہیں</string>"
+    "<string name='cc316c'>اس خدشے کے تدارک کے لیے آپ نے کیا اقدامات کئے ہیں
+ہر پولیو مہم میں پولیو کے قطرے پلواتے ہیں</string>"
+    "<string name='cc316d'>اس خدشے کے تدارک کے لیے آپ نے کیا اقدامات کئے ہیں
+کچھ کرنے کی ضرورت نہیں ہے</string>"
+    "<string name='cc316e'>اس خدشے کے تدارک کے لیے آپ نے کیا اقدامات کئے ہیں
+معلوم نہیں</string>"
+    <string name='cc317'>کیا آپ نے پولیو کے قطروں کے بارے میں سنا ہے؟</string>
+    <string name='cc318'>آپ کے خیال میں پولیو کے قطرےکتنے محفوظ ہیں؟</string>
+    <string name='cc319'>کیا آپ نے پولیو کے قطروں کے متعلق کوئی منفی خبر سنی ہے</string>
+    "<string name='cc320a'>آپ نے پولیو کے قطروں کے بارے میں کیا منفی خبر سنی ہے
+حلال نہیں ہیں</string>"
+    "<string name='cc320b'>آپ نے پولیو کے قطروں کے بارے میں کیا منفی خبر سنی ہے
+تولید ی نظام کو متاثر کرتا ہیں</string>"
+    "<string name='cc320c'>آپ نے پولیو کے قطروں کے بارے میں کیا منفی خبر سنی ہے
+محفوظ نہیں ہے</string>"
+    "<string name='cc320d'>آپ نے پولیو کے قطروں کے بارے میں کیا منفی خبر سنی ہے
+معلوم نہیں</string>"
+    "<string name='cc321'>کیا آپ اپنے بچے کو پولیو کے قطرے پلاتے ہیں
+اگر نہیں تو وجہ بتائیں</string>"
+    <string name='cc322'>آپ کے بچے عام طورپر پولیو کے قطرے کہاں پیتے ہیں؟</string>
+    <string name='cc323'>کیا آپ کو معلوم ہے کہ پانچ سال تک کے بچے کو پولیو کے قطرے کتنی دفعہ دینے کی ضرورت ہوتی ہے ؟</string>
+    "<string name='cc324a'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+ہر پولیو مہم میں قطرے پلانے کی ضرورت نہیں ہے</string>"
+    "<string name='cc324b'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+باربار پولیو کے قطرے پلانے سے ہونے والے منفی اثرات سے فکرمند ہوں</string>"
+    "<string name='cc324c'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+ہر پولیو مہم کے دوران میں گھر پر موجود نہیں ہوسکتی/ہوسکتا</string>"
+    "<string name='cc324d'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+پولیوکے قطرے فائدہ مند نہیں ہیں</string>"
+    "<string name='cc324e'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+مجھے پولیو ورکر کابار بار گھر آنا پسند نہیں ہیں</string>"
+    "<string name='cc324f'>کیا وجہ ہے کے آپ ہر بار پولیو کے قطرے نہیں پلواتے؟
+معلوم نہیں</string>"
+    <string name='cc325'>کیا آپ کو معلوم ہے کہ پولیو سے بچاؤ کے ٹیکے بھی موجود ہیں؟</string>
+    <string name='cc326'>اگر پولیو سے بچاؤکےلیےٹیکےموجود ہوں تو کیا آپ اپنے بچے کو لگوائیں گے؟</string>
+    "<string name='cc327a'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+بچے کو پولیو کے قطرے بہت دفعہ پلا چکے ہیں</string>"
+    "<string name='cc327b'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+گھر والے اجازت نہیں دیتے ہیں</string>"
+    "<string name='cc327c'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+پولیو کے ٹیکے حلال نہیں ہیں</string>"
+    "<string name='cc327d'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+پولیو کے ٹیکےتولیدی نظام کو متاثر کرتے ہیں</string>"
+    "<string name='cc327e'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+پولیو کے ٹیکے محفوظ نہیں ہیں</string>"
+    "<string name='cc327f'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+مقامی لیڈر منع کرتے ہیں</string>"
+    "<string name='cc327g'>پولیو سے بچاؤ کے ٹیکے نہ لگوانے کی وجوہات بیان کریں۔
+مذہبی عقائد کے خلاف ہے</string>"
+    <string name='cc328'>کیا آپ سمجھتے /سمجھتی ہیں کہ آپ کےبچے کو پولیو کا ٹیکہ لگنے کے بعد بھی پولیو کے قطروں کی ضروت ہے ؟</string>
+    <string name='cc329'>اگر نہیں تو کیا جوہات ہیں ؟</string>
+    <string name='cc330'>بچے کی صحت کے متعلق آپ کی ترجیحات کیاہیں</string>
+    <string name='cc331'>کیا آپ کو اپنے بچے کو حفاظتی ٹیکے/قطرے/لگانے /پلانے کے لیے کسی کی اجازت کی ضرروت پڑتی ہے</string>
+    "<string name='cc332a'>اگر آپ کو کسی کی اجازت کی ضرورت پڑتی ہے تو کس سے؟
+خاوند سے</string>"
+    "<string name='cc332b'>اگر آپ کو کسی کی اجازت کی ضرورت پڑتی ہے تو کس سے؟
+ساس سے</string>"
+    "<string name='cc332c'>اگر آپ کو کسی کی اجازت کی ضرورت پڑتی ہے تو کس سے؟
+دیور سے</string>"
+    "<string name='cc332d'>اگر آپ کو کسی کی اجازت کی ضرورت پڑتی ہے تو کس سے؟
+سُسر سے</string>"
+    <string name='cc401'>آپ اپنے گھر میں عام طور پر کونسی زبان بولتے ہیں؟</string>
+    <string name='cc402'>کیاپچھلے ایک مہینے میں محکمہ صحت کا کوئی کارکن آپ کے گھر آیا ؟</string>
+    "<string name='cc403alhw'>بچے اور ماں کی صحت کے متعلق معلومات دینے
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403afcv'>بچے اور ماں کی صحت کے متعلق معلومات دینے
+پولیو ورکر</string>"
+    "<string name='cc403alhs'>بچے اور ماں کی صحت کے متعلق معلومات دینے
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403ango'>بچے اور ماں کی صحت کے متعلق معلومات دینے
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403blhw'>مرکز صحت جانے کا مشورہ دینے
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403bfcv'>مرکز صحت جانے کا مشورہ دینے
+پولیو ورکر</string>"
+    "<string name='cc403blhs'>مرکز صحت جانے کا مشورہ دینے
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403bngo'>مرکز صحت جانے کا مشورہ دینے
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403clhw'>حفاظتی ٹیکے
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403cfcv'>حفاظتی ٹیکے
+پولیو ورکر</string>"
+    "<string name='cc403clhs'>حفاظتی ٹیکے
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403cngo'>حفاظتی ٹیکے
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403dlhw'>پولیو کے قطرے پلانے
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403dfcv'>پولیو کے قطرے پلانے
+پولیو ورکر</string>"
+    "<string name='cc403dlhs'>پولیو کے قطرے پلانے
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403dngo'>پولیو کے قطرے پلانے
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403elhw'>ماں کا علاج
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403efcv'>ماں کا علاج
+پولیو ورکر</string>"
+    "<string name='cc403elhs'>ماں کا علاج
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403engo'>ماں کا علاج
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403flhw'>بچے کا علا ج
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403ffcv'>بچے کا علا ج
+پولیو ورکر</string>"
+    "<string name='cc403flhs'>بچے کا علا ج
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403fngo'>بچے کا علا ج
+فلاحی ادارے کے کارکن(NGO)</string>"
+    "<string name='cc403glhw'>معمول کا دورہ (visit)
+لیڈی ہیلتھ ورکر(LHW)</string>"
+    "<string name='cc403gfcv'>معمول کا دورہ (visit)
+پولیو ورکر</string>"
+    "<string name='cc403glhs'>معمول کا دورہ (visit)
+لیڈی ہیلتھ سپروائزر(LHS)</string>"
+    "<string name='cc403gngo'>معمول کا دورہ (visit)
+فلاحی ادارے کے کارکن(NGO)</string>"
+    <string name='cc404w'>گھر کی تعمیر کے لئے کونسا بنیادی میٹریل استعمال کیا گیا ہے؟ (دیواروں کی تعمیر)</string>
+    <string name='cc404r'>گھر کی تعمیر کے لئے کونسا بنیادی میٹریل استعمال کیا گیا ہے؟ (چھت کی تعمیر)</string>
+    <string name='cc404f'>گھر کی تعمیر کے لئے کونسا بنیادی میٹریل استعمال کیا گیا ہے؟ (فرش کی تعمیر)</string>
+    <string name='cc405'>آپ کے مکان کی مالکانہ حیثیت کیا ہے؟</string>
+    <string name='cc406'>آپ کےگھر میں سونے کے لئے کتنے کمرے استعمال ہوتے ہیں؟</string>
+    <string name='cc407'>کیا آپ کے گھر میں بجلی ہے؟</string>
+    <string name='cc408'>آپ کے گھر میں کھانا پکانے کے لئے زیادہ تر کونسا ایندھن استعمال ہوتا ہے؟</string>
+    <string name='cc409'>آپ کےگھر میں پینے کے پانی کا سب سے اہم ذریعہ کیا ہے؟</string>
+    <string name='cc410'>آپ کےگھر میں کھانا پکانے اور ہاتھ دھونے کے پانی کا سب سے اہم ذریعہ کیا ہے؟</string>
+    <string name='cc411'>کیا آپ پینے کے پانی کو صا ف کر نے کے لئے کوئی طریقہ استعمال کر تے ہیں؟</string>
+    "<string name='cc412a'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+ابالتے ہیں</string>"
+    "<string name='cc412b'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+بلیچ/کلوریں ملاتے ہیں</string>"
+    "<string name='cc412c'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+کپڑے کے ذرئعے چھانتے ہیں</string>"
+    "<string name='cc412d'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+پھٹکری استعمال کرتے ہیں</string>"
+    "<string name='cc412e'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+فلٹر استعمال کرتے ہیں</string>"
+    "<string name='cc412f'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+سورج کی شعاعوں سے محفوظ کیا ہوا پانی</string>"
+    "<string name='cc412g'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+برتن میں پانی ڈال کر ٹہرنے کا انتظار کرتے ہیں</string>"
+    "<string name='cc412h'>اگر ہاں تو عام طو رپرپینے کے پانی کو صا ف کر نے کے لئے کونسا طریقہ استعمال کرتےہیں؟
+معلوم نہیں</string>"
+    <string name='cc413'>گھر کے افراد عام طور پر کس قسم کا لیٹرین استعمال کرتے ہیں؟</string>
+    <string name='cc414'>کیا لیٹرین کی اس سہولت کو دوسرے گھرانوں کے افراد بھی استعمال کرتے ہیں؟</string>
+    <string name='cc415'>کتنے دوسرے گھرانے یہ سہولت استعمال کرتے ہیں؟</string>
+    <string name='cc416'>کیا کوئی غیر متعلقہ افراد( عام پبلک) یہ سہولت استعمال کر سکتا ہے؟</string>
+    <string name='cc417'>برائے مہربانی وہ جگہ دیکھائیں جہاں آپ اور آپکے گھر والے ہاتھ دھوتے ہیں؟</string>
+    <string name='cc418'>ہاتھ دھونے کی جگہ پر پانی کی موجود گی کا مشاہدہ کریں</string>
+    <string name='cc419'>ہاتھ دھونے کی جگہ پر صابن یا ڈٹرجنٹ کی موجودگی کا مشاہدہ کریں</string>
+    <string name='cc420'>کیا آپ کے گھر میں ہاتھ دھونے کے لیے کوئی صابن یا ڈیٹرجنٹ موجود ہے ؟</string>
+    <string name='cc421'>اگر ہا ں ،کیا آپ ہمیں دکھا سکتے ہیں ؟</string>
+    "<string name='cc422a'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+کھاناپکانے سے پہلے</string>"
+    "<string name='cc422b'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+کھانا کھانے سے پہل</string>"
+    "<string name='cc422c'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بچے کوکھانا کھلانے سے پہلے</string>"
+    "<string name='cc422d'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+دودھ پلانے سے پہلے</string>"
+    "<string name='cc422e'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بچے کا پاخانہ صاف کرنے کے بعد</string>"
+    "<string name='cc422f'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بچے کا ڈائپر بدلنے کے بعد</string>"
+    "<string name='cc422g'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بچے کا پاخانہ ٹھکانے لگانے کے بعد</string>"
+    "<string name='cc422h'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بیت الخلاء سے آنے کے بعد</string>"
+    "<string name='cc422i'>آپ کن حالات میں اپنے ہاتھ صابن سے دھوتے ہیں؟
+بیت الخلاء کو کسی بھی مقصد کے لیے استعمال کرنے کے بعد</string>"
+    <string name='cc423'>کیا اس گھر میں رہنے والا کوئی فرد زرعی زمین کا مالک ہے؟</string>
+    "<string name='cc424acr'>اگر ہا ں تو رقبہ بتائیں؟
+ایکڑ</string>"
+    "<string name='cc424can'>اگر ہا ں تو رقبہ بتائیں؟
+کنال</string>"
+    "<string name='cc425a'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+مال مویشی (گائے اور بھینسیں)</string>"
+    "<string name='cc425b'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+بھیڑ اور بکریاں</string>"
+    "<string name='cc425c'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+گھوڑے اور گدھے</string>"
+    "<string name='cc425d'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+سائیکل</string>"
+    "<string name='cc425e'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+موٹر سائیکل</string>"
+    "<string name='cc425f'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+کار/مو ٹر سائیکل</string>"
+    "<string name='cc425h'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+ٹی-وی</string>"
+    "<string name='cc425i'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+وی-سی-آر/وی-سی-ڈی/ڈی-وی-ڈی</string>"
+    "<string name='cc425j'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+صوفہ سیٹ</string>"
+    "<string name='cc425k'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+ٹیلی فون</string>"
+    "<string name='cc425l'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+موبائل فون</string>"
+    "<string name='cc425m'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+مائیکروویو اوون</string>"
+    "<string name='cc425n'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+سلائی مشین</string>"
+    "<string name='cc425o'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+واشنگ مشین</string>"
+    "<string name='cc425p'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+بجلی کے پنکھے</string>"
+    "<string name='cc425q'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+فرج</string>"
+    "<string name='cc425r'>جواب دہندہ سے پوچھیں کہ وہ ان میں سے کون کونسے اثاثے کے مالک ہیں-ان کی تعداد لکھیں-اگر ان میں سے کوئی چیز نہیں ہے تو زیرو (۰)لکھیں-
+گیزر</string>"
+
+
 </resources>
